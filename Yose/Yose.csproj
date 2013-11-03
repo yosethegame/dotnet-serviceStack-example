@@ -80,5 +80,11 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="World.Get.Ready\Ping\PingRequest.cs" />
+    <Compile Include="World.Get.Ready\Ping\PingService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="World.Get.Ready\" />
+    <Folder Include="World.Get.Ready\Ping\" />
   </ItemGroup>
 </Project>
