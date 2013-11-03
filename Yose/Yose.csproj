@@ -74,9 +74,6 @@
     <Content Include="Global.asax" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Hello.cs" />
-    <Compile Include="HelloResponse.cs" />
-    <Compile Include="HelloService.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
