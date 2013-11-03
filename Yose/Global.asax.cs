@@ -5,7 +5,7 @@ namespace Yose
 {
     public class Global : System.Web.HttpApplication
     {
-        public class HelloAppHost : AppHostBase
+        public class HelloAppHost : AppHostHttpListenerBase
         {
             public HelloAppHost() : base("Yose Services", typeof(PingService).Assembly)
             {
